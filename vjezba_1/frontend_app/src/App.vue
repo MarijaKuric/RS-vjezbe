@@ -6,7 +6,7 @@ const loading = ref(false)
 const error = ref(null)
 
 // U Zadatku 2 ovdje stavljamo stvarni URL vašeg backend-a na Renderu
-const BACKEND_URL = 'https://rs-vjezbe-backend.onrender.com/api/poruka'
+const BACKEND_URL = 'https://rs-vjezbe-backend.onrender.com/'
 
 const fetchData = async () => {
   loading.value = true
